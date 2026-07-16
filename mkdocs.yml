@@ -45,7 +45,9 @@ plugins:
         - zh
         - en
   - tags
-  - blog
+  - blog:
+      blog_dir: blog
+      post_dir: blog/posts
 
 markdown_extensions:
   - admonition
